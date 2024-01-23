@@ -1,5 +1,4 @@
 import { RouterProvider, createBrowserRouter } from 'react-router-dom'
-import './App.css'
 import { HomePage } from './pages/HomePage'
 import { LoginPage } from './pages/LoginPage'
 import { PlayerPage } from './pages/PlayerPage'
@@ -16,7 +15,7 @@ function App() {
     { path: '/player', element: <PlayerPage />},
     { path: '/library', element: <LibraryPage />},
     { path: '/favorites', element: <FavoritesPage />},
-    { path: '/tranding', element: <TrendingPage />},
+    { path: '/trending', element: <TrendingPage />},
     { path: '/Feed', element: <FeedPage />}
 
   ])

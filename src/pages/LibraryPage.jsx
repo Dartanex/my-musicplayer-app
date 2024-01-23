@@ -1,7 +1,11 @@
+import { Navbar } from "../components/Navbar/Navbar"
 
 
 export const LibraryPage = () => {
   return (
-    <div>LibraryPage</div>
+    <>
+      <h1>LibraryPage</h1>
+      <Navbar />
+    </>
   )
 }

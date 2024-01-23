@@ -1,7 +1,11 @@
+import { Navbar } from "../components/Navbar/Navbar"
 
 
 export const PlayerPage = () => {
   return (
-    <div>PlayerPage</div>
+    <>
+      <h1>PlayerPage</h1>
+      <Navbar />
+    </>
   )
 }

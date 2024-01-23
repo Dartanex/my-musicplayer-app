@@ -1,7 +1,11 @@
+import { Navbar } from "../components/Navbar/Navbar"
 
 
 export const TrendingPage = () => {
   return (
-    <div>TrendingPage</div>
+    <>
+      <h1>TrendingPage</h1>
+      <Navbar />
+    </>
   )
 }
