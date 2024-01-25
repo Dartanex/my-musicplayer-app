@@ -1,7 +1,11 @@
+import { Navbar } from "../components/Navbar/Navbar"
 
 
 export const FavoritesPage = () => {
   return (
-    <div>FavoritesPage</div>
+    <>
+      <h1>FavoritesPage</h1>
+      <Navbar />
+    </>
   )
 }

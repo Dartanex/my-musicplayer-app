@@ -1,7 +1,11 @@
+import { Navbar } from "../components/Navbar/Navbar"
 
 
 export const FeedPage = () => {
   return (
-    <div>FeedPage</div>
+    <>
+      <h1>FeedPage</h1>
+      <Navbar />
+    </>
   )
 }
